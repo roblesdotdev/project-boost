@@ -1,6 +1,6 @@
 # Project-Boost
 
-"Project-Boost" es una plataforma en línea que conecta a individuos voluntarios con proyectos disponibles en ONGs y startups que requieren colaboración no remunerada. El objetivo de la plataforma es impulsar el impacto social al proporcionar una vía fácil y accesible para que las personas encuentren oportunidades de voluntariado en proyectos significativos.
+"Project-Boost" es una plataforma en línea que conecta a profesionales voluntarios con proyectos disponibles en ONGs y startups que requieren colaboración. El objetivo de la plataforma es impulsar el impacto social al proporcionar una vía fácil y accesible para que las personas encuentren oportunidades de voluntariado en proyectos significativos.
 
 ## Características principales
 
