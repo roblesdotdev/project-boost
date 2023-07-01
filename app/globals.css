@@ -2,6 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  color-scheme: dark light;
+@layer base {
+  :root {
+    color-scheme: dark light;
+
+    --canvas-default: 18 18 32;
+    --canvas-muted: 25 25 41;
+    --canvas-variant: 29 28 46;
+
+    --fg-default: 237 241 249;
+    --fg-muted: 162 169 194;
+
+    --primary: 123 72 215;
+    --primary-variant: 114 61 212;
+
+    --on-primary: 255 255 255;
+  }
+}
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+  body {
+    @apply bg-canvas text-fg;
+  }
 }
