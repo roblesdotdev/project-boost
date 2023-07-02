@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Balancer } from 'react-wrap-balancer'
 
 export default function Home() {
@@ -17,6 +18,14 @@ export default function Home() {
             conexiones significativas en la industria.
           </Balancer>
         </p>
+      </div>
+      <div className="py-2">
+        <Link
+          href="/sign-in"
+          className="rounded-md bg-canvas-variant px-6 py-3 text-lg"
+        >
+          Explorar
+        </Link>
       </div>
     </main>
   )

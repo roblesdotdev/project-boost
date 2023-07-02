@@ -4,7 +4,10 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Project Boost',
+  title: {
+    default: 'Project Boost',
+    template: '%s | Project Boost',
+  },
   description: `"Project-Boost" es una plataforma en línea que conecta a profesionales 
 voluntarios con proyectos disponibles en ONGs y startups que requieren colaboración`,
 }
