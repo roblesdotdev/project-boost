@@ -3,7 +3,7 @@ import { Balancer } from 'react-wrap-balancer'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center gap-4 px-4 py-24">
+    <div className="flex flex-col items-center gap-4 px-4 py-24">
       {/* TYPOGRAPHY */}
       <div className="mx-auto flex max-w-2xl flex-col items-center gap-4 pt-12">
         <h1 className="bg-gradient-to-br from-fg to-fg-muted bg-clip-text text-center text-3xl font-medium text-transparent md:text-4xl">
@@ -27,6 +27,6 @@ export default function Home() {
           Explorar
         </Link>
       </div>
-    </main>
+    </div>
   )
 }
