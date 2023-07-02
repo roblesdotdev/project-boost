@@ -23,8 +23,7 @@ export default function SignInPage() {
         <p className="mt-2 max-w-xl text-center text-fg-muted md:text-lg">
           <Balancer>
             Nuestra aplicación tiene fines exclusivamente demostrativos. Solo
-            almacenaremos información básica, como tu nombre, correo electrónico
-            y foto de perfil.
+            almacenaremos información básica.
           </Balancer>
         </p>
         {/* <UserAuthForm /> */}

@@ -15,8 +15,8 @@ export default function RegisterPage() {
         <h1 className="text-2xl font-bold md:text-4xl">Registro</h1>
         <p className="mt-2 max-w-xl text-center text-fg-muted md:text-lg">
           <Balancer>
-            This is strictly for demo purposes - only your email and profile
-            picture will be stored.
+            Nuestra aplicación tiene fines exclusivamente demostrativos. Solo
+            almacenaremos información básica.
           </Balancer>
         </p>
         {/* <UserAuthForm /> */}
