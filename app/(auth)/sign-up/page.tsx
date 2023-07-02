@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Balancer } from 'react-wrap-balancer'
+import UserAuthForm from '~/components/user-auth-form'
 
 export const metadata = {
   title: 'Registro',
@@ -19,7 +20,7 @@ export default function RegisterPage() {
             almacenaremos información básica.
           </Balancer>
         </p>
-        {/* <UserAuthForm /> */}
+        <UserAuthForm />
         <div className="pt-4">
           <p className="max-w-md px-8 text-center text-fg-muted">
             Al hacer clic en continuar, aceptas nuestros Términos de Servicio y
