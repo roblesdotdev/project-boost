@@ -11,7 +11,8 @@
     "format": "npm run prettier -- --list-different",
     "format:write": "npm run prettier -- --write",
     "typecheck": "tsc -b",
-    "validate": "run-s typecheck lint"
+    "validate": "run-s typecheck lint",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@next-auth/prisma-adapter": "^1.0.7",
